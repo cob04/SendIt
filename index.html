@@ -5,55 +5,85 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-	<header>
-		<h2>SendIt</h2>
-		<ul>
-			<li><a href="#">Home</a></li>
-			<li><a href="#">Services</a></li>
-			<li><a href="#">About</a></li>
-			<li><a href="#">Contact</a></li>
-		</ul>
+	<header id="main-navbar">
+		<div class="container">
+			<div class="links">
+				<ul>
+					<li class="main-link"><a href="#">Send-It</a></li>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Services</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Contact</a></li>
+					<li class="right"><a href="#">Sign In</a></li>
+				</ul>
+			</div>
+		</div>
 	</header>
-	<section class="intro">
-			<h1>Welcome to SendIt</h1>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua.
-			</p>
+	<section id="intro">
+		<div class="overlay">
+			<div class="container">
 
-			<form>
-			<label>Email</label>
-			<input type="text" name="email">
-			<label>Password</label>
-
-			<input type="password" name="password">
-			<label>Repeat Password</label>
-			
-			<input type="password" name="password">
-			</form>
+				<div class="main">
+					<h1>Welcome to Send-It</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua.
+					</p>
+				</div>
+				<aside class="sidebar">
+					<div id="sign-up-form">
+						<form class="form">
+						<h2>Sign up here</h2>
+							<div class="form-group">
+								<label>E-mail</label>
+								<input type="text" name="email" placeholder="your email address">
+							</div>
+							<div class="form-group">
+								<label>Password</label>
+								<input type="password" name="password" placeholder="new password">
+							</div>
+							<div class="form-group">
+								<label>Repeat Password</label>
+								<input type="password" name="password" placeholder="password again">
+							</div>
+							<input type="submit" value="Sign Up">
+						</form>
+					</aside>
+				</div>
+			</div>
+		</div>
 	</section>
-	<section class="services">
-	<h2>Our services</h2>
-	<h3>Fast</h3>
-	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-	consequat.
-	</p>
-	<h3>Convenient</h3>
-	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-	consequat.
-	</p>
-	<h3>Affordable</h3>
-	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-	consequat.
-	</p>
+	<section id="services">
+		<div class="container">
+			<h2>Our services</h2>
+
+			<div class="item">
+			<h3>Fast</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat.
+			</p>
+			</div>
+			<div class="item">
+			<h3>Convenient</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat.
+			</p>
+			</div>
+			<div class="item">
+			<h3>Affordable</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat.
+			</p>
+			</div>
+		</div>
 	</section>
 	<footer>
-		<p>Copyright &copy; 2018. SendIt</p>
+		<p>Copyright &copy; 2018. Send-It</p>
 	</footer>
 
 </body>

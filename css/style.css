@@ -1,0 +1,133 @@
+body {
+	background-color: #F4F4F4;
+	font-size: 16px;
+	font-family: Helvetica, Helvetica Nue, sans-serif;
+	margin: 0;
+	line-height: 1.6em;
+	color: #555;
+}
+
+.container {
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+#main-navbar {
+	background-color: #339966;
+	color: #FFF;
+}
+#main-navbar .links {
+	padding: 10px 0;
+}
+#main-navbar ul {
+	padding: 0;
+	list-style: none;
+}
+#main-navbar li {
+	display: inline;
+}
+#main-navbar .right {
+	float: right;
+}
+#main-navbar .main-link a {
+	font-size: 30px;
+	padding-right: 50px;
+	font-weight: 700;
+}
+#main-navbar a {
+	text-decoration: none;
+	color: #F8F8F8;
+	font-size: 20px;
+	padding-right: 20px;
+}
+#main-navbar a:hover,
+#main-navbar a:active {
+	color: #e2e2e2;
+}
+
+
+#intro {
+	background-image:url('../images/intro-bg.jpg');
+	background-position: center center;
+	background-size: cover;
+	margin-bottom: 30px;
+	text-align: center;
+}
+#intro {
+	color: #FFF;
+}
+#intro .overlay {
+	background: rgba(0, 0, 0, 0.40);
+	min-height: 300px;
+}
+#intro .main {
+	float: left;
+	width: 60%;
+	padding: 40px 30px 0 30px;
+	box-sizing: border-box;
+}
+#intro .main h1 {
+	font-size: 40px;
+	text-shadow: 0 1px 1px rgba(0,0,0,0.5);
+}
+#intro .sidebar {
+	float: right;
+	width: 40%;
+	padding: 0 30px;
+	box-sizing: border-box;
+}
+#intro #sign-up-form {
+	background: #FFF;
+	margin: 40px 0;
+	opacity: 0.8;
+	color: #555;
+	border-radius: 3px;
+	padding: 20px;
+}
+.form {
+	text-align: left;
+}
+.form h2 {
+	text-align: center;
+}
+.form .form-group {
+	padding-bottom: 10px;
+}
+.form label{
+	display: block;
+}
+.form input[type="text"], .form input[type="password"] {
+	padding: 8px;
+	width: 90%;
+}
+.form input[type="submit"]{
+	background-color: #66CC99;
+	color: #FFF;
+	font-size: 18px;
+	padding:10px 20px;
+	border: none;
+	border-radius: 3px;
+	width: 100%;
+	opacity: 1;
+}
+#services .item {
+	padding: 10px;
+	float: left;
+	width: 33.3%;
+	box-sizing: border-box;
+}
+#services h2 {
+	text-align: center;
+}
+#services .item h3 {
+	text-align: center;
+	font-weight: 600;
+}
+footer {
+	background-color: #66CC99;
+	padding: 20px;
+	margin-top: 50px;
+	color: #FFF;
+	text-align: center;
+}
