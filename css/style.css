@@ -14,7 +14,7 @@ body {
 }
 
 #main-navbar {
-	background-color: #339966;
+	background-color: #33CC99;
 	color: #FFF;
 }
 #main-navbar .links {
@@ -58,18 +58,27 @@ body {
 	color: #FFF;
 }
 #intro .overlay {
-	background: rgba(0, 0, 0, 0.40);
+	background: rgba(0, 0, 0, 0.50);
 	min-height: 300px;
 }
 #intro .main {
 	float: left;
 	width: 60%;
-	padding: 40px 30px 0 30px;
+	padding: 80px 30px 0 30px;
 	box-sizing: border-box;
 }
 #intro .main h1 {
-	font-size: 40px;
+	text-align: left;
+	font-size: 3em;
+	font-weight: 300;
 	text-shadow: 0 1px 1px rgba(0,0,0,0.5);
+}
+#intro .main h3 {
+	text-align: left;
+	font-size: 1.5em;
+	line-height: 1.5em;
+	font-weight: 300;
+	text-shadow: 0 1px 1px rgba(0,0,0,0.7);
 }
 #intro .sidebar {
 	float: right;
@@ -79,7 +88,7 @@ body {
 }
 #intro #sign-up-form {
 	background: #FFF;
-	margin: 40px 0;
+	margin: 75px 0;
 	opacity: 0.8;
 	color: #555;
 	border-radius: 3px;
@@ -102,9 +111,10 @@ body {
 	width: 90%;
 }
 .form input[type="submit"]{
-	background-color: #66CC99;
+	background-color: #FF530A;
 	color: #FFF;
 	font-size: 18px;
+	font-weight: 600;
 	padding:10px 20px;
 	border: none;
 	border-radius: 3px;
@@ -116,13 +126,17 @@ body {
 	float: left;
 	width: 33.3%;
 	box-sizing: border-box;
-}
-#services h2 {
 	text-align: center;
 }
 #services .item h3 {
+	font-size: 1.8em;
 	text-align: center;
 	font-weight: 600;
+	text-shadow: 0 1px 1px rgba(0,0,0,0.3);
+}
+#services i{
+	color: #66CC99;
+	text-shadow: 0 1px 1px rgba(0,0,0,0.3);
 }
 footer {
 	background-color: #66CC99;
